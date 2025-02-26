@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from './components/header/Header'; // Capitalized since components should start with uppercase
+import Header from './components/header/header'; // Capitalized since components should start with uppercase
 import Nav from './components/nav/nav';
 import About from './components/about/about'
 import Experience from './components/experience/experience'
