@@ -31,8 +31,6 @@ const contact = () => {
             <a href='mailto:karinamota2220@gmail.com' target='_blank'>Send a message</a>
           </article>
          
-          
-
         </div>
         {/* End Of Contact Options */}
         <form ref={form} onSubmit={sendEmail} >
