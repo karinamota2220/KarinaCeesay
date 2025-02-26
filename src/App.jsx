@@ -3,7 +3,6 @@ import Header from './components/header/header'; // Capitalized since components
 import Nav from './components/nav/nav';
 import About from './components/about/about'
 import Experience from './components/experience/experience'
-// import Services from './components/services/services'
 import Portfolio from './components/portfolio/portfolio'
 import Testimonials from './components/testimonials/testimonials'
 import Contact from './components/contact/contact'
@@ -16,7 +15,6 @@ export default function App() {
       <Nav />
       <About />
       <Experience />
-      {/* <Services /> */}
       <Portfolio />
       <Testimonials />
       <Contact />

@@ -5,7 +5,8 @@ import react from '@vitejs/plugin-react-swc'
 export default defineConfig({
   build: {
     rollupOptions: {
-      external: ["emailjs-com"],
+      // Remove emailjs-com from external if you want it to be bundled
+      external: [],
     },
   },
   plugins: [react()],
