@@ -1,7 +1,6 @@
 import React, { useRef } from 'react';  // ✅ Only import once
 import './contact.css';
 import { CiMail } from "react-icons/ci";
-import { FaWhatsapp } from "react-icons/fa6";
 import emailjs from 'emailjs-com';
 
 
